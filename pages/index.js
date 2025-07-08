@@ -1,6 +1,6 @@
 function Home() {
-    return <h1>Alinne amo da minha vida
-        se voce me ama da uma risadinha
+    return <h1>Startingv1.
+        
     </h1>
 }
 
