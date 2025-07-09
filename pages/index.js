@@ -3,7 +3,7 @@ function Home() {
 
         "Fase de testes"
         
-    </h1>
+    </h1>   
 }
 
 export default Home;
