@@ -28,3 +28,15 @@ test("5. multiplicar 5 por 5 deveria retornar 25", () => {
   expect(resultado).toBe(25);
   console.log(resultado + " <- resultado 5");
 });
+
+test("6. dividir 10 por 0 não pode, deve retornar Erro", () => {
+  const resultado = calculadora.div(10, 0);
+  expect(resultado).toBe("Erro");
+  console.log(resultado + " <- resultado 6");
+});
+
+test("7. dividir 12 por 2 deve retornar 6", () => {
+  const resultado = calculadora.div(12, 2);
+  expect(resultado).toBe(6);
+  console.log(resultado + " <- resultado 7");
+});
